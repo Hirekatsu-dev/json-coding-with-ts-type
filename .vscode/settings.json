@@ -1,0 +1,14 @@
+{
+  // Typescript JSON schema generator
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "json/people.json"
+      ],
+      "url": "./generated_schemas/people.json"
+    }
+  ],
+  "generateJSONSchema.jsDoc": "extended",
+  "generateJSONSchema.encodeRefs": true,
+  "generateJSONSchema.additionalProperties": false
+}
